@@ -41,7 +41,7 @@ void main()
                 hex = (int)strtol(staddr,NULL,16);
                 if(flag)
                 {
-                    for(int i=last;i<=hex;i+=0x1)
+                    for(int i=last;i<hex;i+=0x1)
                     {
                         printf("00%X \t %c\n",i,88);
                     }
