@@ -43,7 +43,7 @@ void main()
                 {
                     for(int i=last;i<hex;i+=0x1)
                     {
-                        printf("00%X \t %c\n",i,88);
+                        printf("00%X \t %c%c\n",i,88,88);
                     }
                 }
                 while(line[i]!='$')
